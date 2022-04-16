@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+main {
+    background: #0080FF;
+    color: white;
+    padding: 0 5rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        background: #0080FF;
+        color: white;
+        padding: 0 1rem;
+    }
+
+    li {
+        margin: 20px 0;
+        align-items: flex-start;
+    }
+}
+
+h1 {
+    padding-top: 2rem;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+li img {
+    margin: 8px;
+}
+
+.expand {
+    transform: rotate(180deg);
+}
+
+.not-visible {
+    display: none;
+}
+
+ul {
+    padding-bottom: 1rem;
+}
